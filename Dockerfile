@@ -37,9 +37,9 @@ RUN \
     # rm -rf $CRM_HOME/abs-webapp/modules/abs/axelor-studio && \
     # rm -rf $CRM_HOME/abs-webapp/modules/abs/axelor-supplier-management && \
     # rm -rf $CRM_HOME/abs-webapp/modules/abs/axelor-supplychain && \
-    # rm -rf $CRM_HOME/abs-webapp/modules/abs/axelor-talent
+     rm -rf $CRM_HOME/abs-webapp/modules/abs/axelor-talent
     # rm -rf $CRM_HOME/abs-webapp/modules/abs/axelor-tool && \
-    chmod 0777 -R $CRM_HOME/abs-webapp/modules/abs/axelor-tool
+    # chmod 0777 -R $CRM_HOME/abs-webapp/modules/abs/axelor-tool
 
 COPY ./axelor-development-kit $CRM_HOME/axelor-development-kit
 COPY ./abs-webapp $CRM_HOME/abs-webapp
