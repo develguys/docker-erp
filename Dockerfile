@@ -11,7 +11,7 @@ RUN \
     git clone https://github.com/axelor/axelor-business-suite.git -b master $CRM_HOME/abs-webapp/modules/abs
 
 # Delete unused modules
-RUN \
+#RUN \
     # rm -rf $CRM_HOME/abs-webapp/modules/abs/axelor-account && \
     # rm -rf $CRM_HOME/abs-webapp/modules/abs/axelor-admin && \
     # rm -rf $CRM_HOME/abs-webapp/modules/abs/axelor-bank-payment && \
