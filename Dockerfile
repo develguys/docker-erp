@@ -7,7 +7,7 @@ WORKDIR $CRM_HOME
 # Get the source code from Github
 RUN \
     git clone https://github.com/axelor/axelor-development-kit.git -b master $CRM_HOME/axelor-development-kit && \
-    git clone https://github.com/develguys/abs-webapp-edit.git -b master $CRM_HOME/abs-webapp && \
+    git clone https://github.com/develguys/abs-webapp.git -b add-logo-csi $CRM_HOME/abs-webapp && \
     git clone https://github.com/axelor/axelor-business-suite.git -b master $CRM_HOME/abs-webapp/modules/abs
 
 # Delete unused modules

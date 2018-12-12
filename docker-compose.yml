@@ -25,9 +25,9 @@ services:
         image: postgres
         container_name: crm_db
         environment:
-            - POSTGRES_DB=crm
-            - POSTGRES_USER=crm
-            - POSTGRES_PASSWORD=crm
+            - POSTGRES_DB=axelor
+            - POSTGRES_USER=axelor
+            - POSTGRES_PASSWORD=axelor
         networks:
             - web
         restart: always
